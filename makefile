@@ -6,9 +6,9 @@ bsachap4: bsachap4.o
 bsachap4.o: bsachap4.s
 	as -g bsachap4.s -o bsachap4.o
 
-.PHONY: clean
-	clean:
+.PHONY : clean
+clean :
 	rm *.o
-	rm ./Build/DEBUG/*
+	rm Build/DEBUG/*
 
 
